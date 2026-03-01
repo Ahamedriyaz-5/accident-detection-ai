@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <title>Accident AI — Emergency Response System</title>
+  <link rel="icon" type="image/png" href="/favicon.png" />
+  <meta name="description"
+    content="AI-powered accident detection and emergency response system with real-time rescue orchestration" />
+  <meta property="og:title" content="Accident AI" />
+  <meta property="og:description" content="AI-powered accident detection and emergency response" />
+  <meta property="og:type" content="website" />
+</head>
+
+<body class="dark">
+  <style>
+    .goog-te-banner-frame.skiptranslate,
+    .goog-te-banner-frame,
+    #goog-gt-tt,
+    .goog-tooltip,
+    .goog-tooltip:hover,
+    iframe[id=":1.container"],
+    body>.skiptranslate>iframe.goog-te-banner-frame,
+    iframe.skiptranslate,
+    div.skiptranslate {
+      display: none !important;
+      visibility: hidden !important;
+      height: 0px !important;
+    }
+
+    html,
+    body {
+      top: 0px !important;
+      position: static !important;
+      margin-top: 0px !important;
+      padding-top: 0px !important;
+    }
+
+    #google_translate_element {
+      visibility: hidden;
+      position: absolute;
+      top: -9999px;
+      left: -9999px;
+      width: 0;
+      height: 0;
+    }
+
+    .goog-logo-link {
+      display: none !important;
+    }
+
+    .goog-te-gadget {
+      color: transparent !important;
+      font-size: 0px !important;
+    }
+  </style>
+
+  <div id="google_translate_element" style="position:fixed; top:20px; right:20px; z-index:99999;"></div>
+
+  <div id="root"></div>
+  <script type="text/javascript">
+    function googleTranslateElementInit() {
+      new google.translate.TranslateElement({
+        pageLanguage: 'en',
+        includedLanguages: 'en,hi,ml,ta,te,kn,bn,mr,gu,pa,ur',
+        layout: google.translate.TranslateElement.InlineLayout.SIMPLE,
+        autoDisplay: false
+      }, 'google_translate_element');
+    }
+  </script>
+  <script type="text/javascript"
+    src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+  <script type="module" src="/src/main.tsx"></script>
+</body>
+
+</html>
